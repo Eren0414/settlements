@@ -1,4 +1,4 @@
-# npm rojekt indítása
+# npm projekt indítása
 ## 0. git repo létrehozás
 `git init`
 
