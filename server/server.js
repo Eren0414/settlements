@@ -4,6 +4,7 @@ const express = require("express");
 const mysql = require("mysql");
 const app = express();
 const sanitizeHtml = require("sanitize-html");
+const cors = require("cors");
 
 const pool = require("./config/database.js");
 const {
