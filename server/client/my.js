@@ -9,7 +9,6 @@ async function GetTable() {
      RenderTable();
 }
 
-
 function RenderTable() {
      let htmlElement = `
      <div class="justify-content-center">
@@ -28,7 +27,7 @@ function RenderTable() {
        <tbody>
      `;
    
-     for (const settlement of settlement) {
+     for (const settlement of settlements) {
          htmlElement += `
          <tr>
            <td><button type="button" class="btn btn-light" data-bs-toggle="modal"
