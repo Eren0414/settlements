@@ -46,4 +46,22 @@ function RenderTable() {
    
      contentBox.innerHTML = htmlElement;
 }
+
+function SortByCountyId() {
+  settlement.sort((a, b) => a.countyId.localeCompare(b.countyId));
+
+  RenderTable();
+}
+
+function SortByZipcode() {
+  settlement.sort((a, b) => a.zipcode.localeCompare(b.zipcode));
+
+  RenderTable();
+}
+
+function SortByPopulation() {
+  settlement.sort((a, b) =>  b.population - a.population);
+
+  RenderTable();
+}
    
