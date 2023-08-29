@@ -18,10 +18,10 @@ function RenderTable() {
      <table class="table table-striped table-hover">
        <thead>
          <tr>
-           <th>Name<button type="button" class="btn btn-dark btn-sm ms-2" onclick="SortByName()"><i class="bi bi-caret-down-fill"></i></button></th>
-           <th>Lane<button type="button" class="btn btn-dark btn-sm ms-2" onclick="GetTable()"><i class="bi bi-caret-down-fill"></i></button></th>
-           <th>Rank<button type="button" class="btn btn-dark btn-sm ms-2" onclick="SortByRank()"><i class="bi bi-caret-down-fill"></i></button></th>
-           <th>Team<button type="button" class="btn btn-dark btn-sm ms-2" onclick="SortByTeam()"><i class="bi bi-caret-down-fill"></i></button></th>
+           <th>City<button type="button" class="btn btn-dark btn-sm ms-2" onclick="SortByName()"><i class="bi bi-caret-down-fill"></i></button></th>
+           <th>Zipcode<button type="button" class="btn btn-dark btn-sm ms-2" onclick="GetTable()"><i class="bi bi-caret-down-fill"></i></button></th>
+           <th>Population<button type="button" class="btn btn-dark btn-sm ms-2" onclick="SortByRank()"><i class="bi bi-caret-down-fill"></i></button></th>
+           <th></th>
          </tr>
        </thead>
        <tbody>
